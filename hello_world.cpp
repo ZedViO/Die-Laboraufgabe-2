@@ -1,11 +1,10 @@
-#include <iostream>
+#include <iostream>//*If I have just added some comms...*
 #include <string>
 
-using namespace std;
-int main () {
-cout << "Pls your name" << endl;
-string name = "";
-cin >> name;
-cout << "Hello world from " + name << endl;
+int main () {//Something here...
+std::cout << "Pls your name" << std::endl;
+std::string name = "";
+std::cin >> name;
+std::cout << "Hello world from " + name << std::endl;   //Maybe here too...
 return 0;
 }
